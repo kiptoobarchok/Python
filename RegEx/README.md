@@ -25,14 +25,14 @@ Python has a built-in package called ***re***, which can be used to work with Re
 # Metacharacters
 Metacharacters are characters with a special meaning:
 similar to * in wild card.
-Here's a complete list of the metacharacters −
-    . ^ $ * + ? { } [ ] \ | ( )
+#### Here's a complete list of the metacharacters:
+        . ^ $ * + ? { } [ ] \ | ( )
 
 # Matching Vs Searching
 
 Python offers two different primitive operations based on regular expressions :match checks for a match only at the beginning of the string, while search checks for a match anywhere in the string (this is what Perl does by default).
 
-Example
+### Example
     import re
     line = "Cats are smarter than dogs";
     matchObj = re.match( r'dogs', line, re.M|re.I)
