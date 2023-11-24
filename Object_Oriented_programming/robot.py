@@ -20,11 +20,17 @@ y = robot("RGDX-2", 2023)
 
 robot.brand = "AURA"
 print("\n")
+
 x.say_hi()
+y.say_hi()
 print("\n")
+
 print(x.__dict__)
 print(y.__dict__)
+
 print("\n")
+
 print(robot.__dict__)
+
 print("\n")
 print(f"{x.name} : {x.brand}")

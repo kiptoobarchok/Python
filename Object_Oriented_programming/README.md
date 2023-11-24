@@ -48,3 +48,12 @@ x.a
 ```
 
 In Python, you can override the value of a class attribute for a specific instance. However, it's important to note that doing so will only affect that specific instance, and the class attribute's original value will remain unchanged for other instances of the class.
+
+## class methods
+A class method is a method that is bound to the class and not the instance of the class. It takes the class itself as its first argument, conventionally named `cls`. Class methods are defined using the ***`@classmethod`*** decorator.
+
+```
+@classmethod
+    def class_method(cls):
+        print(f"This is a class method. Accessing class variable: {cls.class_variable}")
+```
