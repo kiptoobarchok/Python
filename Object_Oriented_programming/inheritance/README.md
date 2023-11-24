@@ -2,7 +2,9 @@
 
 Inheritance allows programmers to create classes that are built upon existing classes, and this enables a class created through inheritance to inherit the attributes and methods of the parent class.
 
+
 > Python not only supports inheritance but multiple inheritance as well.
+
 
 This allows for code reusability.
 
@@ -31,3 +33,7 @@ class Student(Person):
   def __init__(self, fname, lname):
     super().__init__(fname, lname)
 ```
+
+note:
+>When using the parent's class name to call it's init function then we
+>must pass `self` unlike when using the **super()** function

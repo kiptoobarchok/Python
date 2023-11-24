@@ -11,7 +11,7 @@ class person:
 
 class occupation(person):
     def __init__(self, firstname, lastname, title):
-        super().__init__(firstname, lastname)
+        person.__init__(self, firstname, lastname)
         self.title = title
 
     def job(self):
