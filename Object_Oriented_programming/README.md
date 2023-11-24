@@ -11,9 +11,9 @@ everything is a class in Python.
 >according to the principle "first-class everything".
 
 Below is a simple definition of a class:
+    
     class Robot:
         pass
-
     if  __name__ == "__main__":
         x = Robot()
         y = Robot()
