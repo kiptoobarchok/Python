@@ -57,3 +57,29 @@ A class method is a method that is bound to the class and not the instance of th
     def class_method(cls):
         print(f"This is a class method. Accessing class variable: {cls.class_variable}")
 ```
+
+- They take the class itself as their first parameter, conventionally named `cls`.
+
+- They have access to the class and its attributes but not to instance-specific data.
+
+- They are bound to the class, meaning they can be called on the class itself or on an instance of the class.
+
+## static methods
+Like class methods they are not bound to instances
+Class attributes can be either public , protected(_attr) or private(__attr). If the class attributes are private then we need a possibility to access and change these private class attributes.
+We could use instance methods for this purpose:
+```
+class Robot:
+    __counter = 0
+    def __init__(self):
+        type(self).__counter += 1
+
+    @staticmethod
+    def RobotInstances(self):
+        return Robot.__counter
+```
+
+- Static methods are defined using the `@staticmethod` decorator.
+- They don't have access to the instance or the class itself as their first parameter.
+- They are defined within a class, but they do not have access to the class or instance-specific data.
+- They are not bound to a class or instance, and they behave like regular functions within the class namespace.
