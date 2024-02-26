@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import sys
 import unittest
-from my_calculations import Calculations
+from .my_calculations import Calculations
 
 
 class testCalculations(unittest.TestCase):

@@ -9,6 +9,11 @@ class robot:
         self.build_year = build_year
         self.__class__.count += 1
 
+    def __del__(self):
+        self.__class__.count -= 1
+
+    @classmethod 
+
 
     def say_hi(self):
         print(f"Hi, I am {self.name}")

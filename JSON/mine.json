@@ -1,0 +1,22 @@
+{
+    "firstName": "Caleb",
+    "lastName": "Kiptoo",
+    "school": "ALX",
+    "Address": [
+        {
+            "boxOfficeNo": "00511",
+            "houseLane": "Gate  6",
+            "Street": "Ongata Rongai"
+        },
+        {
+            "otherInfo": [
+                {
+                    "cityBornIn": "Kericho",
+                    "Siblings": ["Abel", "Peter"],
+                    "otherSchools": ["Kabarnet", "KU"]
+                }
+            ]
+        }
+    ]
+
+}

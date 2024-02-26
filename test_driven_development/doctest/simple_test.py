@@ -11,5 +11,6 @@ def my_func(a, b):
         ...
     TypeError: can only concatenate str (not "int") to str
     """
-    return a + b
+    return (a + b)
 
+print(my_func('d', 'e'))

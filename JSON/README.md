@@ -10,6 +10,7 @@ JSON is preferred syntax for storing and exchanging data between applications.
 
 
 
+
 # Objectives
 
     What is JSON

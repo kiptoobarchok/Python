@@ -44,4 +44,5 @@ def factorial(n):
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
+    print(factorial(-5))
     

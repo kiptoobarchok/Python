@@ -1,0 +1,16 @@
+{
+    "students": [
+        {
+            "name": "Caleb",
+            "age": 21,
+            "school": "ALX",
+            "email": "Calebkiptoo9090@gmail.com"
+        },
+        {
+            "name": "Abel",
+            "age": 26,
+            "school": "MMUST",
+            "email": "abelkiprob@gmail.com"
+        }
+    ]
+}
