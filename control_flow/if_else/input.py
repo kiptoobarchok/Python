@@ -15,4 +15,4 @@ if age <= 0:
 elif age < 18:
     print("You are not yet of age in Kenya")
 else:
-    print("You're now an adult")
+    print("You're now an adult\nNot forgetting an eligible voter!!")
