@@ -17,7 +17,8 @@ myDictName = {
             >> However cannot be accessed using indexing
                     
 
-- Changable :
+- Changable:
+
     we can change, add or remove items after the dict has been created
 
 - Duplicates not allowed:
@@ -29,4 +30,5 @@ myDictName = {
     print(myDictName["key_1"])
 
 - items can be of any data type
+
 
