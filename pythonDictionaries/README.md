@@ -32,3 +32,11 @@ myDictName = {
 - items can be of any data type
 
 
+# Using dict() constructor
+
+syntax :
+```
+myDictName = dict(key_1 = "value_1", key_2 = "value_2", key_3 = "value_3")
+print(myDictName)
+```
+
