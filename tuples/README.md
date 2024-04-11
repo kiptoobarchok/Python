@@ -23,13 +23,13 @@ len() method
 
 # Tuple constructor
 `tuple()` - This is git also possible to use to make a tuple
+
 ie:
-    ```
     myTuple = tuple(('a', 'b', 'c')) `note the double paranthesis`
     print(myTuple)
     output:
     ('a', 'b', 'c')
-    ```
+    
 
 # Python Collection (Arrays)
 
