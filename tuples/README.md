@@ -26,7 +26,7 @@ len() method
 
 ie:
 
-    myTuple = tuple(('a', 'b', 'c')) `note the double paranthesis`
+    myTuple = tuple(('a', 'b', 'c')) #note the double paranthesis
     print(myTuple)
     output:
     ('a', 'b', 'c')
