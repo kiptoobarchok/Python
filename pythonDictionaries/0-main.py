@@ -50,4 +50,13 @@ if __name__ == '__main__':
 
     #items() returns the items of the dictionary as tuples in a list
     print(secondRobotDict.items())
-    
+
+
+    print(myRobotDict["use"])
+
+
+    #check if key exists
+    if "use" in myRobotDict:
+        print("Yes")
+    else:
+        print("No")
