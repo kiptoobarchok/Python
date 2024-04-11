@@ -11,8 +11,8 @@
 
 # number of items
 use : 
-    len() method
-    
+    \nlen() method
+
         ```
         myTuple = ("a", "b", "c")
         print(len(myTuple))
