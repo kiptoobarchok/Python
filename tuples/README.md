@@ -10,8 +10,8 @@
     since are indexed they can have items with the same value
 
 # number of items
-use : 
-    \nlen() method
+use:     
+len() method
 
         ```
         myTuple = ("a", "b", "c")
