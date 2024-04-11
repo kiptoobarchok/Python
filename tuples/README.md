@@ -12,6 +12,7 @@
 # number of items
 use : 
     len() method
+    
         ```
         myTuple = ("a", "b", "c")
         print(len(myTuple))
@@ -21,7 +22,7 @@ use :
         ```
 
 # Tuple constructor
-`tuple()` - This is also possible to use to make a tuple
+`tuple()` - This is git also possible to use to make a tuple
 ie:
     ```
     myTuple = tuple(('a', 'b', 'c')) `note the double paranthesis`
