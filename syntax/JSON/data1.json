@@ -1,1 +1,10 @@
-{"name": "Abel", "age": "26", "school": "MMUST"}
+{
+    "name": "Abel", 
+    "age": "26", 
+    "school": "MMUST",
+    "subjects": [
+        {"sciences": "biology - chemistry"},
+        {"arts": "PE"}
+        
+    ]
+}
